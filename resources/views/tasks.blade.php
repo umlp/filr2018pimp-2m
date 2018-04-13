@@ -7,7 +7,7 @@
                 <div class="panel-heading">
                     New Task
                 </div>
-
+               <title>Salut</title>
                 <div class="panel-body">
                     <!-- Display Validation Errors -->
                     @include('common.errors')
