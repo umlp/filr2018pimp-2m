@@ -28,7 +28,10 @@
                         <div class="form-group">
                             <div class="col-sm-offset-3 col-sm-6">
                                 <button type="submit" class="btn btn-default">
-                                    <i class="fa fa-btn fa-plus"></i>Add Task
+                                    <i class="fa fa-btn fa-plus"></i>Scanner le cours
+                                </button>
+                                <button type="submit" class="btn btn-default">
+                                    <i class="fa fa-btn fa-plus"></i>Diffuser le cours
                                 </button>
                             </div>
                         </div>
