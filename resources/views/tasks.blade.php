@@ -6,9 +6,7 @@
             <div class="panel panel-default">
                 <div class="panel-heading">
                     Antisèche
-                    <button type="submit" class="btn btn-default">
-                        <i class="fa fa-btn fa-plus"></i>mon profil
-                    </button>
+                    <button type="submit">mon profil</button>
                 </div>
                 <div class="panel-body">
                     <!-- Display Validation Errors -->
@@ -21,12 +19,8 @@
                         <!-- Add Task Button -->
                         <div class="form-group">
                             <div class="col-sm-offset-3 col-sm-6">
-                                <button type="submit" class="btn btn-default">
-                                    <i class="fa fa-btn fa-plus"></i>Scanner le cours
-                                </button>
-                                <button type="submit" class="btn btn-default">
-                                    <i class="fa fa-btn fa-plus"></i>Diffuser le cours
-                                </button>
+                                <button type="submit">Scanner le cours</button>
+                                <button type="submit">Diffuser le cours</button>
                             </div>
                         </div>
                        
@@ -48,7 +42,17 @@
                                 <option value="4">Image4</option>
                             </select>
                             <button type="submit">Importer</button>
-                        </fieldset>                        
+                        </fieldset>
+                            <label for="liste">LISTE DES ETUDIANTS</label>
+                            <select name="liste" size="6" multiple="multiple">
+                                <option value="1">Etudiant 1</option>
+                                <option value="2">Etudiant 2</option>
+                                <option value="3">Etudiant 3</option>
+                                <option value="4">Etudiant a signalé absence</option>
+                                <option value="5">Etudiant 4</option>
+                                <option value="6">Etudiant 5</option>
+                            </select>
+                            <button type="submit">Repérer les absents</button>
                     </form>
                 </div>
             </div>
