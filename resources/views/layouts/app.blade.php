@@ -48,18 +48,20 @@
         .selectImage {
             margin-left : 100px;
             border : 2px solid grey;
-            length : 400px;
+            width : 400px;
             
         }
         
         .textselect {
             float : left;
-            
+            margin-left : 100px;
         }
         
-        .button {
+        .button_importer {
             border : 1px solid black;
             background-color : grey;
+            float : left;
+            margin-left : 100px;
         }
         
         .listestudents {
