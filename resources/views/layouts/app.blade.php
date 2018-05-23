@@ -48,6 +48,7 @@
         .selectImage {
             margin-left : 100px;
             border : 2px solid grey;
+            length : 400px;
             
         }
         
