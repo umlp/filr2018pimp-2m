@@ -29,14 +29,30 @@
         .title {
             border : 2px solid grey; 
         }
+        
         .profil {
             float :right;
             margin-right : 50px;
             margin-top : -50px;
             background-color : grey;
         }
+        
         .casegris {
             background-color : grey;
+        }
+        
+        .listeCours {
+            margin-left : 100px;
+        }
+        
+        .selectImage {
+            margin-left : 100px;
+            
+        }
+        
+        .textselect {
+            float : left 
+            
         }
     </style>
 </head>
