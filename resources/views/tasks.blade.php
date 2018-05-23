@@ -20,8 +20,12 @@
 
                         <!-- Task Name -->
                         <div class="form-group">
-                            <label for="task-name" class="col-sm-3 control-label">Task</label>
-
+                            <label for="cours" class="col-sm-3 control-label">Cours</label>
+                            <select name="cours">
+                                <option value="1">CM Auto ASI3</option>
+                                <option value="2">CM Capteur ASI3</option>
+                                <option value="3">CM UML ASI3</option>
+                            </select>
                             <div class="col-sm-6">
                                 <input type="text" name="name" id="task-name" class="form-control" value="{{ old('task') }}">
                             </div>
