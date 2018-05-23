@@ -26,7 +26,11 @@
         }
 
         .title {
-            border : 3px solid grey; 
+            border : 1px solid grey; 
+        }
+        .profil {
+            float :right;
+            margin-right : 20px;
         }
     </style>
 </head>
