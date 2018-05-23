@@ -1,28 +1,25 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container">
-        <div class="col-sm-offset-2 col-sm-8">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    Antisèche
-                    <button type="submit">mon profil</button>
-                </div>
-                <div class="panel-body">
-                    <!-- Display Validation Errors -->
-                    @include('common.errors')
+    <div>
+        <h1>Antisèche</h1>
+        <button type="submit">mon profil</button>
+    </div>
+    <div class="panel-body">
+    <!-- Display Validation Errors -->
+    @include('common.errors')
 
-                    <!-- New Task Form -->
-                    <form action="{{ url('task')}}" method="POST" class="form-horizontal">
-                        {{ csrf_field() }}
+    <!-- New Task Form -->
+    <form action="{{ url('task')}}" method="POST" class="form-horizontal">
+    {{ csrf_field() }}
                         
-                        <!-- Add Task Button -->
-                        <div class="form-group">
-                            <div class="col-sm-offset-3 col-sm-6">
-                                <button type="submit">Scanner le cours</button>
-                                <button type="submit">Diffuser le cours</button>
-                            </div>
-                        </div>
+    <!-- Add Task Button -->
+    <div class="form-group">
+        <div class="col-sm-offset-3 col-sm-6">
+            <button type="submit">Scanner le cours</button>
+            <button type="submit">Diffuser le cours</button>
+        </div>
+    </div>
                        
                        <!-- choose the course -->
                         <div class="form-group">
@@ -55,7 +52,6 @@
                             <button type="submit">Repérer les absents</button>
                     </form>
                 </div>
-            </div>
 
             <!-- Current Tasks -->
             @if (count($tasks) > 0)
@@ -93,6 +89,4 @@
                     </div>
                 </div>
             @endif
-        </div>
-    </div>
 @endsection
