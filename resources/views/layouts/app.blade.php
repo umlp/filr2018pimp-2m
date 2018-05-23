@@ -47,13 +47,25 @@
         
         .selectImage {
             margin-left : 100px;
+            border : 2px solid grey;
             
         }
         
         .textselect {
-            float : left 
+            float : left;
             
         }
+        
+        .button {
+            border : 1px solid black;
+            background-color : grey;
+        }
+        
+        .listestudents {
+            float : right;
+            margin-right : 200px;
+        }
+        
     </style>
 </head>
 <body id="app-layout">
