@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div>
+    <div class="title">
         <h1>Antisèche</h1>
         <button type="submit">mon profil</button>
     </div>
