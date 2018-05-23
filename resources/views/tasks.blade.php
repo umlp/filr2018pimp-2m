@@ -3,7 +3,7 @@
 @section('content')
     <div class="title">
         <h1>Antisèche</h1>
-        <button type="submit">mon profil</button>
+        <button type="submit" class="profil">mon profil</button>
     </div>
 
     <!-- New Task Form -->
