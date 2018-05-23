@@ -49,6 +49,7 @@
             margin-left : 100px;
             border : 2px solid grey;
             width : 400px;
+            height : 300px;
             
         }
         
@@ -57,16 +58,19 @@
             margin-left : 100px;
         }
         
+        .selectionner {
+            margin-left : 100px;
+        }
+        
         .button_importer {
             border : 1px solid black;
             background-color : grey;
-            float : left;
             margin-left : 100px;
         }
         
         .listestudents {
             float : right;
-            margin-right : 200px;
+            margin-left : 800px;
         }
         
     </style>
