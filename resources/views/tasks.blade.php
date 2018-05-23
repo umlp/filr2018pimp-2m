@@ -29,7 +29,6 @@
     
     <br/>
     <div class="selectImage">
-        <br/>
         <label for="selectionner" class="textselect">Sélectionner vos images (3 max.)</label>
         <br/>
         <select name="selectionner" size="4" multiple="multiple" class="selectionner">
@@ -38,9 +37,8 @@
             <option value="3">Image3</option>
             <option value="4">Image4</option>
         </select>
-        <br/>
+        </br>
         <button type="submit" class="button_importer">Importer</button>
-        <br/>
     </div>
     
     <br/>
@@ -55,7 +53,7 @@
             <option value="5">Etudiant 4</option>
             <option value="6">Etudiant 5</option>
         </select>
-        <br/>
+        </br>
         <button type="submit" class="button">Repérer les absents</button>
     </div>
     </form>
