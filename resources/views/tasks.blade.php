@@ -6,6 +6,9 @@
             <div class="panel panel-default">
                 <div class="panel-heading">
                     Antisèche
+                    <button type="submit" class="btn btn-default">
+                        <i class="fa fa-btn fa-plus"></i>mon profil
+                    </button>
                 </div>
                 <div class="panel-body">
                     <!-- Display Validation Errors -->
