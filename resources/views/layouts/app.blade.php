@@ -69,8 +69,8 @@
         }
         
         .liststudents {
-            float : right;
-            margin-right : 200px;
+            float : left;
+            margin-left : 100px;
         }
         
         .button {
