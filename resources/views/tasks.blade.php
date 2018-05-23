@@ -19,7 +19,7 @@
     <!-- choose the course -->
     <br/>
     <div class="listeCours">
-        <label for="cours">Cours</label>
+        <label for="cours">Cours  </label>
         <select name="cours">
             <option value="1">CM Auto ASI3</option>
             <option value="2">CM Capteur ASI3</option>
