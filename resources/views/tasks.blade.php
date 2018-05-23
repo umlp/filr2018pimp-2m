@@ -18,7 +18,8 @@
     </div>
                        
     <!-- choose the course -->
-    <div>
+    <br/>
+    <div class="listeCours">
         <label for="cours">Cours</label>
         <select name="cours">
             <option value="1">CM Auto ASI3</option>
@@ -26,14 +27,15 @@
             <option value="3">CM UML ASI3</option>
         </select>
     </div>
-    <div>
-        <label for="selectionner">Sélectionner vos images (3 max.)</label>
-        <select name="selectionner" size="4" multiple="multiple">
+    <div class="selectImage">
+        <label for="selectionner" class="textselect">Sélectionner vos images (3 max.)</label>
+        <select name="selectionner" size="4" multiple="multiple" class="selectionner">
             <option value="1">Image1</option>
             <option value="2">Image2</option>
             <option value="3">Image3</option>
             <option value="4">Image4</option>
         </select>
+        <br/>
         <button type="submit">Importer</button>
     </div>
     <div>
