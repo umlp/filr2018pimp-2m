@@ -18,7 +18,7 @@
     <style>
         h1{
             font-siwe : 24px;
-            margin-left : 50px;
+            margin-left : 100px;
             color : grey;
         }
         
@@ -27,12 +27,16 @@
         }
 
         .title {
-            border : 1px solid grey; 
+            border : 2px solid grey; 
         }
         .profil {
             float :right;
             margin-right : 50px;
-            margin-top : -20px
+            margin-top : -50px;
+            background-color : grey;
+        }
+        .casegris {
+            background-color : grey;
         }
     </style>
 </head>
