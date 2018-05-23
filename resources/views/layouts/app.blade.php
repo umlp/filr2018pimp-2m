@@ -18,6 +18,7 @@
     <style>
         h1{
             font-siwe : 24px;
+            margin-left : 50px;
             color : grey;
         }
         
@@ -30,7 +31,8 @@
         }
         .profil {
             float :right;
-            margin-right : 20px;
+            margin-right : 50px;
+            margin-top : -20px
         }
     </style>
 </head>
