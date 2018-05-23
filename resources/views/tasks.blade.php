@@ -10,15 +10,15 @@
     <form action="{{ url('task')}}" method="POST">
     {{ csrf_field() }}
                         
-    <div class="form-group">
-        <div class="col-sm-offset-3 col-sm-6">
+    <div>
+        <div>
             <button type="submit">Scanner le cours</button>
             <button type="submit">Diffuser le cours</button>
         </div>
     </div>
                        
     <!-- choose the course -->
-    <div class="form-group">
+    <div>
         <label for="cours" class="col-sm-3 control-label">Cours</label>
         <select name="cours">
             <option value="1">CM Auto ASI3</option>
