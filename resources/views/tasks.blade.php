@@ -17,20 +17,7 @@
                     <!-- New Task Form -->
                     <form action="{{ url('task')}}" method="POST" class="form-horizontal">
                         {{ csrf_field() }}
-
-                        <!-- Task Name -->
-                        <div class="form-group">
-                            <label for="cours" class="col-sm-3 control-label">Cours</label>
-                            <select name="cours">
-                                <option value="1">CM Auto ASI3</option>
-                                <option value="2">CM Capteur ASI3</option>
-                                <option value="3">CM UML ASI3</option>
-                            </select>
-                            <div class="col-sm-6">
-                                <input type="text" name="name" id="task-name" class="form-control" value="{{ old('task') }}">
-                            </div>
-                        </div>
-
+                        
                         <!-- Add Task Button -->
                         <div class="form-group">
                             <div class="col-sm-offset-3 col-sm-6">
@@ -42,6 +29,26 @@
                                 </button>
                             </div>
                         </div>
+                       
+                       <!-- choose the course -->
+                        <div class="form-group">
+                            <label for="cours" class="col-sm-3 control-label">Cours</label>
+                            <select name="cours">
+                                <option value="1">CM Auto ASI3</option>
+                                <option value="2">CM Capteur ASI3</option>
+                                <option value="3">CM UML ASI3</option>
+                            </select>
+                        </div>
+                        <fieldset>
+                            <label for="selectionner">Sélectionner vos images (3 max.)</label>
+                            <select name="selectionner" size="4" multiple="multiple">
+                                <option value="1">Image1</option>
+                                <option value="2">Image2</option>
+                                <option value="3">Image3</option>
+                                <option value="4">Image4</option>
+                            </select>
+                            <button type="submit">Importer</button>
+                        </fieldset>                        
                     </form>
                 </div>
             </div>
