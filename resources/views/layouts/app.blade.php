@@ -18,14 +18,15 @@
     <style>
         h1{
             font-siwe : 24px;
+            color : grey;
         }
         
         body {
             font-family: 'Lato';
         }
 
-        .fa-btn {
-            margin-right: 6px;
+        .title {
+            border : 3px solid grey; 
         }
     </style>
 </head>
