@@ -49,7 +49,7 @@
             margin-left : 100px;
             border : 2px solid grey;
             width : 400px;
-            height : 300px;
+            height : 150px;
             
         }
         
@@ -73,6 +73,10 @@
             margin-left : 800px;
         }
         
+        .button {
+            border : 1px solid black;
+            background-color : grey; 
+        }
     </style>
 </head>
 <body id="app-layout">
