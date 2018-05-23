@@ -12,8 +12,8 @@
                         
     <div>
         <div>
-            <button type="submit">Scanner le cours</button>
-            <button type="submit">Diffuser le cours</button>
+            <button type="submit" class="casegris">Scanner le cours</button>
+            <button type="submit" class="casegris">Diffuser le cours</button>
         </div>
     </div>
                        
