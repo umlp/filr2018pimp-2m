@@ -38,7 +38,7 @@
             <option value="4">Image4</option>
         </select>
         <br/>
-        <button type="submit" class="button">Importer</button>
+        <button type="submit" class="button_importer">Importer</button>
     </div>
     <div class="liststudents">
         <label for="liste">LISTE DES ETUDIANTS</label>
