@@ -16,6 +16,10 @@
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
 
     <style>
+        h1{
+            font-siwe : 24px;
+        }
+        
         body {
             font-family: 'Lato';
         }
