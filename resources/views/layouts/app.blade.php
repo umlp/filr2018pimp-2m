@@ -77,7 +77,7 @@
         .button_importer {
             border : 1px solid black;
             background-color : grey;
-            margin-left : 0px;
+            margin-left : 10px;
         }
         
         .liststudents {
