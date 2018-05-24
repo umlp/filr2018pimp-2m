@@ -28,7 +28,7 @@
         
         .logoApp{
             float: left
-            margin-top: -50px
+            margin-top: 0px
         }
 
         .title {
