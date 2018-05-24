@@ -67,8 +67,7 @@
         
         .textselect {
             float : left;
-            margin-left : 5%;
-            width: 95%
+            width: 100%
         }
         
         .selectionner {
@@ -79,8 +78,10 @@
         .button_importer {
             border : 1px solid black;
             background-color : grey;
-            margin-left: 5%;
-            width: 95%
+            width: 100%
+        }
+        .titleListeStudent{
+            width: 100%
         }
         
         .liststudents {
