@@ -17,8 +17,8 @@
 
     <style>
         h1{
-            font-siwe : 24px;
-            margin-left : 25%px;
+            font-size : 24px;
+            margin-left : 10%;
             color : grey;
         }
         
