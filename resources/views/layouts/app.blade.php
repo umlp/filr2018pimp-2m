@@ -80,8 +80,8 @@
         }
         
         .liststudents {
-            float : left;
-            margin-left : 100px;
+            float : right;
+            margin-right : 100px;
         }
         
         .button {
