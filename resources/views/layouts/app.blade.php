@@ -66,7 +66,6 @@
         }
         
         .textselect {
-            float : left;
             text-align: center;
         }
         
