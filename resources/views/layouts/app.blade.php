@@ -81,9 +81,9 @@
         }
         
         .liststudents {
-            float : right;
-            margin-right : 50px;
-            margin-top: -198px;
+            float : left;
+            margin-left : 450px;
+            margin-top: -195px;
         }
         
         .button {
