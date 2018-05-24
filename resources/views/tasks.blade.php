@@ -45,7 +45,7 @@
     
     <br/>
     <div class="liststudents">
-        <label for="liste">LISTE DES ETUDIANTS</label>
+        <label class="titleListStudent" for="liste">LISTE DES ETUDIANTS</label>
         <br/>
         <select name="liste" size="6" multiple="multiple">
             <option value="1">Etudiant 1</option>
