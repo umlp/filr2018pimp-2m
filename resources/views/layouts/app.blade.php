@@ -24,11 +24,12 @@
         
         body {
             font-family: 'Lato';
+            width: 100%;
         }
         
         .logoApp{
-            float: left
-            margin-top: 0px
+            float: left;
+            margin-top: 0px;
         }
 
         .title {
