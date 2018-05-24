@@ -84,8 +84,8 @@
         }
         
         .liststudents {
-            float : left;
-            margin-left : 20%;
+            float : right;
+            margin-right : 20%;
             margin-top: -195px;
             width: 20%;
         }
