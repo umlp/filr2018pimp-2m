@@ -66,11 +66,11 @@
         
         .textselect {
             float : left;
-            margin-left : 100px;
+            margin-left : 50px;
         }
         
         .selectionner {
-            margin-left : 50px;
+            margin-left : 100px;
         }
         
         .button_importer {
@@ -82,7 +82,7 @@
         .liststudents {
             float : right;
             margin-right : 50px;
-            margin-top: -150px;
+            margin-top: -200px;
         }
         
         .button {
