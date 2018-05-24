@@ -25,6 +25,11 @@
         body {
             font-family: 'Lato';
         }
+        
+        .logoApp{
+            float: left
+            margin-top: -50px
+        }
 
         .title {
             border : 2px solid grey; 
@@ -39,7 +44,7 @@
         
          .ImageProfil {
             float :right;
-            margin-right : 100px;
+            margin-right : 150px;
             margin-top : -50px;
         }
         
