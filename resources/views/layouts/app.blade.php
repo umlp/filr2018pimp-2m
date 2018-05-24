@@ -70,7 +70,7 @@
         }
         
         .selectionner {
-            margin-left : 100px;
+            margin-left : 50px;
         }
         
         .button_importer {
@@ -81,7 +81,8 @@
         
         .liststudents {
             float : right;
-            margin-right : 100px;
+            margin-right : 50px;
+            margin-top: -150px;
         }
         
         .button {
