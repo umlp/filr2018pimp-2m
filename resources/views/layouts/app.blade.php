@@ -37,6 +37,12 @@
             background-color : grey;
         }
         
+         .ImageProfil {
+            float :right;
+            margin-right : 100px;
+            margin-top : -50px;
+        }
+        
         .casegris {
             background-color : grey;
         }
