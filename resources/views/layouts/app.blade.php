@@ -60,7 +60,7 @@
         .selectImage {
             margin-left : 100px;
             border : 2px solid grey;
-            width : 400px;
+            width : 300px;
             height : 150px;
             
         }
