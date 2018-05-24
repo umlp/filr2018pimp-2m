@@ -24,7 +24,7 @@
         
         body {
             font-family: 'Lato';
-            width: 50%;
+            width: 100%;
         }
         
         .logoApp{
@@ -58,9 +58,9 @@
         }
         
         .selectImage {
-            margin-left : 100px;
+            margin-left : 25%;
             border : 2px solid grey;
-            width : 300px;
+            width : 25%;
             height : 150px;
             
         }
@@ -77,7 +77,7 @@
         .button_importer {
             border : 1px solid black;
             background-color : grey;
-            width: 90%;
+            margin-left: 10px;
         }
         
         .liststudents {
