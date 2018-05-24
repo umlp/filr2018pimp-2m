@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="title">
-        <img src="logo INSA Rouen.jpg" width="20" heigth="40" />
+        <img src="logo INSA Rouen.jpg" alt="logo" width="60" heigth="120" />
         <h1>Antisèche</h1>
         <button type="submit" class="profil">mon profil</button>
     </div>
