@@ -17,7 +17,7 @@
 
     <style>
         h1{
-            font-size : 24px;
+            font-size : 28px;
             margin-left : 10%;
             color : grey;
         }
@@ -67,13 +67,12 @@
         
         .textselect {
             float : left;
-            margin-left: auto;
-            margin-right: auto;
+            text-align: center;
         }
         
         .selectionner {
             margin-left : 25%;
-            width: 50%
+            width: 50%;
         }
         
         .button_importer {
@@ -82,7 +81,7 @@
             width: 100%;
         }
         .titleListeStudent{
-            width: 100%;
+            text-align: center;
         }
         
         .liststudents {
