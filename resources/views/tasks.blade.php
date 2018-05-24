@@ -40,7 +40,7 @@
             <option value="4">Image4</option>
         </select>
         </br>
-        <label>Importer</label><input type="file" name="maPhoto" class="button_importer">
+        <input type="file" name="maPhoto" value="Importer" class="button_importer">
     </div>
     
     <br/>
