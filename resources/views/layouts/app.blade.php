@@ -18,7 +18,7 @@
     <style>
         h1{
             font-siwe : 24px;
-            margin-left : 100px;
+            margin-left : 25%px;
             color : grey;
         }
         
@@ -29,7 +29,7 @@
         
         .logoApp{
             float: left;
-            margin-top: 0px;
+            margin-top: 0%;
         }
 
         .title {
@@ -38,14 +38,14 @@
         
         .profil {
             float :right;
-            margin-right : 50px;
+            margin-right : 5%;
             margin-top : -50px;
             background-color : grey;
         }
         
          .ImageProfil {
             float :right;
-            margin-right : 150px;
+            margin-right : 15%;
             margin-top : -50px;
         }
         
@@ -54,36 +54,40 @@
         }
         
         .listeCours {
-            margin-left : 100px;
+            margin-left : 20%;
         }
         
         .selectImage {
-            margin-left : 25%;
+            margin-left : 20%;
             border : 2px solid grey;
-            width : 25%;
+            width : 20%;
             height : 150px;
             
         }
         
         .textselect {
             float : left;
-            margin-left : 50px;
+            margin-left : 5%;
+            width: 95%
         }
         
         .selectionner {
-            margin-left : 100px;
+            margin-left : 25%;
+            width: 50%
         }
         
         .button_importer {
             border : 1px solid black;
             background-color : grey;
-            margin-left: 10px;
+            margin-left: 5%;
+            width: 95%
         }
         
         .liststudents {
             float : left;
-            margin-left : 450px;
+            margin-left : 20%;
             margin-top: -195px;
+            width: 20%;
         }
         
         .button {
