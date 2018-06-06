@@ -48,6 +48,7 @@
             float :right;
             margin-right : 15%;
             margin-top : -50px;
+            width : 25px;
         }
         
         .casegris {
