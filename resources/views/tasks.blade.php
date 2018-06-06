@@ -2,9 +2,9 @@
 
 @section('content')
     <div class="title">
-        <img class="logoApp" src="logo INSA Rouen.jpg" alt="logo" width="60" heigth="120" />
+        <img class="logoApp" src="logo_INSA_Rouen.jpg" alt="logo" width="60" heigth="120" />
         <h1>Antisèche</h1>
-        <img class="ImageProfil" src="filr2018pimp-2m/resources/views/powerpuffs_image.png" alt="Image profil" width="60" heigth="30" />
+        <img class="ImageProfil" src="powerpuffs_image.png" alt="Image profil" width="60" heigth="30" />
         <button type="submit" class="profil">mon profil</button>
     </div>
 
