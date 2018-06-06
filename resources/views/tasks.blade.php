@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+    <title>Antiseche</title>
     <div class="title">
         <img class="logoApp" src="logo_INSA_Rouen.jpg" alt="logo"/>
         <h1>Antisèche</h1>
