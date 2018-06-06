@@ -30,6 +30,7 @@
         .logoApp{
             float: left;
             margin-top: 0%;
+            width : 10%;
         }
 
         .title {
